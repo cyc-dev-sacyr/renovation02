@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "renovation-02-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/renovation02/Renovation02WebPart.js",
+          "manifest": "./src/webparts/renovation02/Renovation02WebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "Renovation02WebPartStrings": "lib/webparts/renovation02/loc/{locale}.js"
+  }
+}
